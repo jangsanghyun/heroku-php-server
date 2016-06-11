@@ -1,4 +1,4 @@
-<?php include("/m/page_top.php"); ?>
+<?php include($_SERVER["DOCUMENT_ROOT"]."/m/page_top.php"); ?>
 
 
 <%
@@ -256,4 +256,4 @@
 		</div><!-- sub_contents -->
 	</div><!-- sub_con -->
 
-<?php include("/m/page_foot.php"); ?>
+<?php include($_SERVER["DOCUMENT_ROOT"]."/m/page_foot.php"); ?>

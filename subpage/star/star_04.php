@@ -1,4 +1,4 @@
-<!-- #include virtual = "/m/page_top.asp" -->
+<?php include($_SERVER["DOCUMENT_ROOT"]."/m/page_top.php"); ?>
 
 <%
 	idx = Request("idx")
@@ -42,4 +42,4 @@
 	
 %>
 
-<!-- #include virtual = "/m/page_foot.asp" -->
+<?php include($_SERVER["DOCUMENT_ROOT"]."/m/page_foot.php"); ?>

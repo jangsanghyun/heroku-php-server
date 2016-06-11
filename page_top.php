@@ -279,7 +279,7 @@
 	</div>
 	<div class="contentpop">
 		<div class="pop_smenu" style="padding-top:0px;">
-			<a href="/m/subpage/company.asp">
+			<a href="/m/subpage/company.php">
 			<div style="font-weight:bold;width:95%;height:33px;background:#ffffff;font-size:14px;color:#0274bb;padding:13px 0 0 5%;
 			border-bottom:1px solid #90b6cf;">
 				COMPANY 
@@ -288,7 +288,7 @@
 		</div>
 
 		<div class="pop_smenu" style="clear:both;">
-			<a href="/m/subpage/star/star.asp">
+			<a href="/m/subpage/star/star.php">
 			<div style="font-weight:bold;width:95%;height:33px;background:#ffffff;font-size:14px;color:#0274bb;padding:13px 0 0 5%;
 			border-bottom:1px solid #90b6cf;">
 				STAR 
@@ -296,7 +296,7 @@
 		</div>
 
 		<div class="pop_smenu" style="clear:both;">
-			<a href="/m/subpage/notice.asp">
+			<a href="/m/subpage/notice.php">
 			<div style="font-weight:bold;width:95%;height:33px;background:#ffffff;font-size:14px;color:#0274bb;padding:13px 0 0 5%;
 			border-bottom:1px solid #90b6cf;">
 				NOTICE
@@ -305,7 +305,7 @@
 
 
 		<div class="pop_smenu" style="clear:both;">
-			<a href="/m/subpage/news.asp">
+			<a href="/m/subpage/news.php">
 			<div style="font-weight:bold;width:95%;height:33px;background:#ffffff;font-size:14px;color:#0274bb;padding:13px 0 0 5%;
 			border-bottom:1px solid #90b6cf;">
 				NEWS
@@ -313,7 +313,7 @@
 		</div>
 
 		<div class="pop_smenu" style="clear:both;">
-			<a href="/m/subpage/audition/audition_01.asp">
+			<a href="/m/subpage/audition/audition_01.php">
 			<div style="font-weight:bold;width:95%;height:33px;background:#ffffff;font-size:14px;color:#0274bb;padding:13px 0 0 5%;
 			border-bottom:1px solid #90b6cf;">
 				AUDITION
@@ -321,7 +321,7 @@
 		</div>
 
 		<div class="pop_smenu" style="clear:both;">
-			<a href="/m/subpage/contact.asp">
+			<a href="/m/subpage/contact.php">
 			<div style="font-weight:bold;width:95%;height:33px;background:#ffffff;font-size:14px;color:#0274bb;padding:13px 0 0 5%;
 			border-bottom:1px solid #90b6cf;">
 				CONTACT US

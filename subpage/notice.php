@@ -1,5 +1,5 @@
 
-<?php include("/m/page_top.php"); ?>
+<?php include($_SERVER["DOCUMENT_ROOT"]."/m/page_top.php"); ?>
 
 <%
 	b_type = Request("b_type")
@@ -232,4 +232,4 @@
 		</div><!-- sub_contents -->
 	</div><!-- sub_con -->
 
-<?php include("/m/page_foot.php"); ?>
+<?php include($_SERVER["DOCUMENT_ROOT"]."/m/page_foot.php"); ?>

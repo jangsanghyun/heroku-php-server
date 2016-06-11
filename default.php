@@ -1,4 +1,4 @@
-<?php include("/m/page_top.php"); ?>
+<?php include($_SERVER["DOCUMENT_ROOT"]."/m/page_top.php"); ?>
 
         <section id="event">
 
@@ -189,4 +189,4 @@
 		</div><!-- container_3 종료 -->
 	</div><!-- main_con 종료 -->
 
-<?php include("/m/page_foot.php"); ?>
+<?php include($_SERVER["DOCUMENT_ROOT"]."/m/page_foot.php"); ?>

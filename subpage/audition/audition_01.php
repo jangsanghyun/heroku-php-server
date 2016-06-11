@@ -1,4 +1,4 @@
-<!-- #include virtual = "/m/page_top.asp" -->
+<?php include($_SERVER["DOCUMENT_ROOT"]."/m/page_top.php"); ?>
 
 	<div class="sub_visual_05">
 		<div class="sub_top_tt">
@@ -126,4 +126,4 @@
 
 	
 
-<!-- #include virtual = "/m/page_foot.asp" -->
+<?php include($_SERVER["DOCUMENT_ROOT"]."/m/page_foot.php"); ?>

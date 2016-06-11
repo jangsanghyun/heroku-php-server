@@ -1,4 +1,4 @@
-<?php include("/m/page_top.php"); ?>
+<?php include($_SERVER["DOCUMENT_ROOT"]."/m/page_top.php"); ?>
 
 	<div class="sub_visual_06">
 		<div class="sub_top_tt">
@@ -61,4 +61,4 @@
 		</div><!-- sub_contents -->
 	</div><!-- sub_con -->
 
-<?php include("/m/page_foot.php"); ?>
+<?php include($_SERVER["DOCUMENT_ROOT"]."/m/page_foot.php"); ?>
