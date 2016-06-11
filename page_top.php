@@ -10,7 +10,8 @@
 <link rel="stylesheet" type="text/css" media="all" href="/m/css/bootstrap-theme.min.css" />
 <link rel="stylesheet" type="text/css" href="/m/css/style.css">
 
-<script type='text/javascript' src='/m/js/jquery-3.0.0.min.js'></script>
+<!-- <script type='text/javascript' src='/m/js/jquery-3.0.0.min.js'></script> -->
+<script   src="https://code.jquery.com/jquery-2.2.4.js"   integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="   crossorigin="anonymous"></script>
 <script type='text/javascript' src='/m/js/jquery.common.js'></script>
 <script type='text/javascript' src='/m/js/swipe.js'></script>
 <script type="text/javascript" src="/m/js/jquery.colorbox.js"></script>
@@ -19,7 +20,6 @@
 <script type='text/javascript' src='/m/js/bx.slider.min.js'></script>
 <script type="text/javascript" src="/m/js/jquery.touchslider.js"></script>
 <script type="text/javascript" src="/m/js/jquery.rolling.js"></script>
-<script type="text/javascript" src="/m/js/jquery-latest.js"></script>
 <script type="text/javascript" src="/m/js/idangerous.swiper.js"></script>
 <script type="text/javascript" src="/m/js/bootstrap.min.js"></script>
 
@@ -282,6 +282,7 @@
 		
 	</div>
 	<div class="contentpop">
+	<!--
 		<div class="pop_smenu" style="padding-top:0px;">
 			<a href="/m/subpage/company.php">
 			<div style="font-weight:bold;width:95%;height:33px;font-size:14px;color:#0274bb;padding:13px 0 0 5%;
@@ -332,7 +333,133 @@
 			</div></a>
 		</div>
 
-	</div>
+		-->
+		<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingOne">
+					<h4 class="panel-title">
+						<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+						COMPANY
+						</a>
+					</h4>
+					</div>
+					<div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+					<div class="panel-body">
+						<div class="pop_smenu" style="padding-top:0px;">
+							<a href="/m/subpage/company.php">
+							<div style="font-weight:bold;width:95%;height:33px;font-size:14px;color:white;padding: 0px 15px;-webkit-box-align: center;
+    display: -webkit-box;">
+								ABOUT 
+							</div></a>
+
+						</div>
+						<div class="pop_smenu" style="padding-top:0px;">
+							<a href="/m/subpage/company.php">
+							<div style="font-weight:bold;width:95%;height:33px;font-size:14px;color:white;padding: 0px 15px;-webkit-box-align: center;
+    display: -webkit-box;">
+								HISTORY 
+							</div></a>
+						</div>
+							<div class="pop_smenu" style="clear:both;">
+							<a href="/m/subpage/contact.php">
+							<div style="font-weight:bold;width:95%;height:33px;font-size:14px;color:white;padding: 0px 15px;-webkit-box-align: center;
+    display: -webkit-box;
+							">
+								CONTACT US
+							</div></a>
+						</div>
+					</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingTwo">
+					<h4 class="panel-title">
+						<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+						STAR
+						</a>
+					</h4>
+					</div>
+					<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+					<div class="panel-body">
+						<div class="pop_smenu" style="clear:both;">
+								<a href="/m/subpage/star/star.php">
+								<div style="font-weight:bold;width:95%;height:33px;font-size:14px;color:white;padding: 0px 15px;-webkit-box-align: center;
+    display: -webkit-box;
+								">
+									STAR 
+								</div></a>		
+						</div>
+						<div class="pop_smenu" style="clear:both;">
+							<a href="/m/subpage/star/star.php">
+							<div style="font-weight:bold;width:95%;height:33px;font-size:14px;color:white;padding: 0px 15px;-webkit-box-align: center;
+    display: -webkit-box;
+							">
+								FILMOGRAPHY 
+							</div></a>		
+						</div>
+					</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingThree">
+					<h4 class="panel-title">
+						<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+						COMMUNICATION
+						</a>
+					</h4>
+					</div>
+					<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+					<div class="panel-body">
+						<div class="pop_smenu" style="clear:both;">
+								<a href="/m/subpage/star/star.php">
+								<div style="font-weight:bold;width:95%;height:33px;font-size:14px;color:white;padding: 0px 15px;-webkit-box-align: center;
+    display: -webkit-box;
+								">
+									NEWS 
+								</div></a>		
+						</div>
+						<div class="pop_smenu" style="clear:both;">
+							<a href="/m/subpage/star/star.php">
+							<div style="font-weight:bold;width:95%;height:33px;font-size:14px;color:white;padding: 0px 15px;-webkit-box-align: center;
+    display: -webkit-box;
+							">
+								NOTICE 
+							</div></a>		
+						</div>
+					</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingFour">
+					<h4 class="panel-title">
+						<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+						AUDITION
+						</a>
+					</h4>
+					</div>
+					<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+					<div class="panel-body">
+						<div class="pop_smenu" style="clear:both;">
+								<a href="/m/subpage/star/star.php">
+								<div style="font-weight:bold;width:95%;height:33px;font-size:14px;color:white;padding: 0px 15px;-webkit-box-align: center;
+    display: -webkit-box;
+								">
+									AUDITION 
+								</div></a>		
+						</div>
+						<div class="pop_smenu" style="clear:both;">
+							<a href="/m/subpage/star/star.php">
+							<div style="font-weight:bold;width:95%;height:33px;font-size:14px;color:white;padding: 0px 15px;-webkit-box-align: center;
+    display: -webkit-box;
+							">
+								RECRUITMENT 
+							</div></a>		
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	<!-- End contentpop -->
 </div>
 		</div>
@@ -378,7 +505,7 @@
 		 var backgound = $("<div>").attr({
 						         "class": "popup_background"
 						     }).css({
-						       "background":"#000",
+						       "background":"rgba(0, 0, 0,0.3)",
 						       "width": "100%",
 						       "height": totalHeight(),
 						       "position": "absolute",
