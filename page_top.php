@@ -6,12 +6,13 @@
 <meta name="viewport" content="user-scalable=yes, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
 <meta http-equiv="Cache-Control" content="no-cache">
 <meta http-equiv="Pragma" content="no-cache">
+<link rel="stylesheet" type="text/css" media="all" href="/m/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/m/css/bootstrap-theme.min.css" />
 <link rel="stylesheet" type="text/css" href="/m/css/style.css">
 
-<script type='text/javascript' src='/m/js/jquery-1.7.2.min.js'></script>
+<script type='text/javascript' src='/m/js/jquery-3.0.0.min.js'></script>
 <script type='text/javascript' src='/m/js/jquery.common.js'></script>
 <script type='text/javascript' src='/m/js/swipe.js'></script>
-<script type="text/javascript" src="/m/js/jquery2.js"></script>
 <script type="text/javascript" src="/m/js/jquery.colorbox.js"></script>
 <script type='text/javascript' src="/m/js/jquery.easing.1.3.js"></script>
 <script type='text/javascript' src='/m/js/jquery.flexslider-min.js'></script>
@@ -20,8 +21,10 @@
 <script type="text/javascript" src="/m/js/jquery.rolling.js"></script>
 <script type="text/javascript" src="/m/js/jquery-latest.js"></script>
 <script type="text/javascript" src="/m/js/idangerous.swiper.js"></script>
+<script type="text/javascript" src="/m/js/bootstrap.min.js"></script>
 
 <link rel="stylesheet" type="text/css" media="all" href="/m/css/colorbox.css" />
+
 <link href="/m/css/jquery.selectbox.css" type="text/css" rel="stylesheet" />
 
 </head>
@@ -33,11 +36,11 @@
 <header id="header">
 	
 	<section class="gnb">
-		<div style="position:absolute;right:20px;top:0px;">
-				<a href="#lnb" class="lnb_open"><img src="/m/images/full_menu_btn.png" alt="전체메뉴" style="height:23px;padding-top:25px;"></a>
+		<div class="shadow hide"></div>
+		<div style="position:absolute;right:25px;top:25px;">
+				<a href="#lnb" class="lnb_open"><img src="/m/images/full_menu_btn.png" alt="전체메뉴" style="height:30px;width:30px;"></a>
 			</div>
-		<div style="padding-left:20px;">
-			<a href="/m"><img src="/m/images/m_logo.png" alt="로고" style="height:50px;padding-top:10px;"></a>
+		<div class="mainLogo" style="padding-left:20px;display:none;">
 		</div>
 		
 	</section><!-- gnb -->
@@ -270,9 +273,10 @@
 	<div class="lnb_inner">
 		<div class="contentpop">
 			<div class="pop-wrap">
-	<div class="headpop" style="background:#0274bb;width:100%;height:50px;">
+	<div class="headpop" style="background-color: rgba(122,195,204,1);width:100%;height:50px;">
 		<div class="iconbtn" style="font-size:17px;color:#fff;padding:5px 0 0 5px;font-weight:bold;text-align:left;">
-			<span style="float:left;padding-left:5px;line-height:250%;">Fly-up</span>
+			<a href="/m"><img src="/m/images/m_logo.png" alt="로고" ></a>
+		 <span style="float:left;padding-left:5px;line-height:250%;"></span>
 		</div>
 		
 		
@@ -280,8 +284,8 @@
 	<div class="contentpop">
 		<div class="pop_smenu" style="padding-top:0px;">
 			<a href="/m/subpage/company.php">
-			<div style="font-weight:bold;width:95%;height:33px;background:#ffffff;font-size:14px;color:#0274bb;padding:13px 0 0 5%;
-			border-bottom:1px solid #90b6cf;">
+			<div style="font-weight:bold;width:95%;height:33px;font-size:14px;color:#0274bb;padding:13px 0 0 5%;
+			">
 				COMPANY 
 			</div></a>
 
@@ -289,16 +293,16 @@
 
 		<div class="pop_smenu" style="clear:both;">
 			<a href="/m/subpage/star/star.php">
-			<div style="font-weight:bold;width:95%;height:33px;background:#ffffff;font-size:14px;color:#0274bb;padding:13px 0 0 5%;
-			border-bottom:1px solid #90b6cf;">
+			<div style="font-weight:bold;width:95%;height:33px;font-size:14px;color:#0274bb;padding:13px 0 0 5%;
+			">
 				STAR 
 			</div></a>		
 		</div>
 
 		<div class="pop_smenu" style="clear:both;">
 			<a href="/m/subpage/notice.php">
-			<div style="font-weight:bold;width:95%;height:33px;background:#ffffff;font-size:14px;color:#0274bb;padding:13px 0 0 5%;
-			border-bottom:1px solid #90b6cf;">
+			<div style="font-weight:bold;width:95%;height:33px;font-size:14px;color:#0274bb;padding:13px 0 0 5%;
+			">
 				NOTICE
 			</div></a>
 		</div>
@@ -306,28 +310,28 @@
 
 		<div class="pop_smenu" style="clear:both;">
 			<a href="/m/subpage/news.php">
-			<div style="font-weight:bold;width:95%;height:33px;background:#ffffff;font-size:14px;color:#0274bb;padding:13px 0 0 5%;
-			border-bottom:1px solid #90b6cf;">
+			<div style="font-weight:bold;width:95%;height:33px;font-size:14px;color:#0274bb;padding:13px 0 0 5%;
+			">
 				NEWS
 			</div></a>
 		</div>
 
 		<div class="pop_smenu" style="clear:both;">
 			<a href="/m/subpage/audition/audition_01.php">
-			<div style="font-weight:bold;width:95%;height:33px;background:#ffffff;font-size:14px;color:#0274bb;padding:13px 0 0 5%;
-			border-bottom:1px solid #90b6cf;">
+			<div style="font-weight:bold;width:95%;height:33px;font-size:14px;color:#0274bb;padding:13px 0 0 5%;
+			">
 				AUDITION
 			</div></a>
 		</div>
 
 		<div class="pop_smenu" style="clear:both;">
 			<a href="/m/subpage/contact.php">
-			<div style="font-weight:bold;width:95%;height:33px;background:#ffffff;font-size:14px;color:#0274bb;padding:13px 0 0 5%;
-			border-bottom:1px solid #90b6cf;">
+			<div style="font-weight:bold;width:95%;height:33px;font-size:14px;color:#0274bb;padding:13px 0 0 5%;
+			">
 				CONTACT US
 			</div></a>
 		</div>
-		
+
 	</div>
 	<!-- End contentpop -->
 </div>
@@ -370,7 +374,7 @@
 	$(".lnb_open").click(function(e){
 		var id = $($(this).attr("href"));
 		var t = id.find(".lnb_inner");
-		var b = t.css("display") == "block"
+		var b = t.css("display") == "block";
 		 var backgound = $("<div>").attr({
 						         "class": "popup_background"
 						     }).css({
@@ -387,20 +391,24 @@
 						   
 		if(b){
 			$(this).find("img").attr("src",$(this).find("img").attr("src").replace("close","full_menu_btn") );
-			t.stop().animate({"right":"-84.12698412698413%"},300,function(){
+			t.stop().animate({"right":"-84.12698412698413%"},150,function(){
 				$(this).css("display","none");
 			});	
 			$(".popup_background").remove();
 			$(".sub_inner").hide();
-			 $(".quick_inner").hide();
+			$(".quick_inner").hide();
+			$(".gnb .shadow").addClass("hide");
+			 
 
 		}else{
 			$(".popup_background").remove();
 			$(this).find("img").attr("src",$(this).find("img").attr("src").replace("full_menu_btn","close") );
-			t.css("display","block").stop().animate({"right":"0"},300);	
+			t.css("display","block").stop().animate({"right":"0"},150);	
 			 $("body").append(backgound);
 			 $(".sub_inner").hide();
 			 $(".quick_inner").hide();
+			 $(".gnb .shadow").removeClass("hide");
+			console.log("expend");
 		}
 		
 		e.preventDefault();

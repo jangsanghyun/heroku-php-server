@@ -166,7 +166,7 @@
 
                 $(window).bind("load", function() {
                     $(window).resize();
-                    docReady();
+                    //docReady();
                 });
 
             });
@@ -175,17 +175,17 @@
 
 	
 	<div class="main_con">
-		<div id="container_1" style="float:left; width:49.7%;">
-			<a href="/m/subpage/company.asp"><img class="event_img" src="/m/images/menu_1.jpg" alt="" style="width:100%;"/></a>
-			<a href="/m/subpage/audition/audition_01.asp"><img class="event_img" src="/m/images/menu_2.jpg" alt="" style="width:100%;"/></a>
+		<div id="container_1" style="float:left; width:50%;">
+			<a href="/m/subpage/company.asp"><img class="event_img" src="/m/images/menu_1.jpg" alt="" style="width:100;height:254px;"/></a>
+			<a href="/m/subpage/audition/audition_01.asp"><img class="event_img" src="/m/images/menu_2.jpg" alt="" style="width:290px;display:none;"/></a>
 		</div><!-- container_1 종료 -->
-		<div id="container_2" style="float:right; width:50.3%;">
-			<a href="/m/subpage/star/star.asp"><img class="event_img" src="/m/images/menu_3.jpg" alt="" style="width:100%;"/></a>
+		<div id="container_2" style="float:right; width:50%;">
+			<a href="/m/subpage/star/star.asp"><img class="event_img" src="/m/images/menu_3.jpg" alt="" style="width:100%;height:254px;"/></a>
 		</div><!-- container_2 종료 -->
-		<div id="container_3" style="float:left; width:100%; margin:0;">
-			<a href="/m/subpage/notice.asp"><img class="event_img" src="/m/images/menu_4.jpg" alt="" style="float:left; width:33.3%;"/></a>
-			<a href="/m/subpage/news.asp"><img class="event_img" src="/m/images/menu_5.jpg" alt="" style="float:left; width:33.3%;"/></a>
-			<a href="/m/subpage/contact.asp"><img class="event_img" src="/m/images/menu_6.jpg" alt="" style="width:33.3%;"/></a>
+    <div id="container_3" style="float:left; width:100%; margin-top: -5px;">
+			<a href="/m/subpage/notice.asp"><img class="event_img" src="/m/images/menu_4.jpg" alt="" style="float:left; width:50%;height:200px;"/></a>
+			<a href="/m/subpage/news.asp"><img class="event_img" src="/m/images/menu_5.jpg" alt="" style="float:left; width:50%;height:200px"/></a>
+			<a href="/m/subpage/contact.asp"><img class="event_img" src="/m/images/menu_6.jpg" alt="" style="display:none;"/></a>
 		</div><!-- container_3 종료 -->
 	</div><!-- main_con 종료 -->
 
