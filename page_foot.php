@@ -7,11 +7,11 @@
     height: auto;
     background-color: black;">
 			<ul class="foot_icon" >
-				<li><a href="https://www.facebook.com/flyupent" target="_blank"><img class="event_img" src="/m/images/sns_1.png" alt=""/></a></li>
-				<li><a href="https://twitter.com/flyup_ent" target="_blank"><img class="event_img" src="/m/images/sns_2.png" alt=""/></a></li>
-				<li><a href="https://www.instagram.com/flyup_ent/" target="_blank"><img class="event_img" src="/m/images/sns_3.png" alt=""/></a></li>
-				<li><a href="http://www.naver.com/" target="_blank"><img class="event_img" src="/m/images/sns_5.png" alt="" /></a></li>
-				<li><a href="" target="_blank"><img class="event_img" src="/m/images/sns_4.png" alt="" /></a></li>
+				<li><a href="https://www.facebook.com/flyupent" target="_blank"><img class="event_img" src="./images/sns_1.png" alt=""/></a></li>
+				<li><a href="https://twitter.com/flyup_ent" target="_blank"><img class="event_img" src="./images/sns_2.png" alt=""/></a></li>
+				<li><a href="https://www.instagram.com/flyup_ent/" target="_blank"><img class="event_img" src="./images/sns_3.png" alt=""/></a></li>
+				<li><a href="http://www.naver.com/" target="_blank"><img class="event_img" src="./images/sns_5.png" alt="" /></a></li>
+				<li><a href="" target="_blank"><img class="event_img" src="./images/sns_4.png" alt="" /></a></li>
 			</ul>
 		</div>
 		<div style=" clear:both; width:85%; text-align:center; margin:15px auto; ">

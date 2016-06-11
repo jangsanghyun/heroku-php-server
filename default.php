@@ -1,4 +1,4 @@
-<?php include($_SERVER["DOCUMENT_ROOT"]."/m/page_top.php"); ?>
+<?php include($_SERVER["DOCUMENT_ROOT"]."./page_top.php"); ?>
 
         <section id="event">
 
@@ -8,76 +8,76 @@
                         <li class="eventArea">
                             <div class="eventImageWrap">
                                 <a href="" class="event_thumb">
-                                <img class="event_img" src="/m/images/m_01.jpg" alt=" " /></a>
+                                <img class="event_img" src="./images/m_01.jpg" alt=" " /></a>
                             </div>
                         </li>
                     
                         <li class="eventArea">
                             <div class="eventImageWrap">
                                 <a href="" class="event_thumb">
-                                <img class="event_img" src="/m/images/m_02.jpg" alt="" /></a>
+                                <img class="event_img" src="./images/m_02.jpg" alt="" /></a>
                             </div>
                         </li>
                     
                         <li class="eventArea">
                             <div class="eventImageWrap">
                                 <a href="" class="event_thumb">
-                                <img class="event_img" src="/m/images/m_03.jpg" alt="" /></a>
+                                <img class="event_img" src="./images/m_03.jpg" alt="" /></a>
                             </div>
                         </li>
                     
                        <!-- <li class="eventArea">
                             <div class="eventImageWrap">
                                 <a href="/" class="event_thumb">
-                                <img class="event_img" src="/m/images/m_04.jpg" alt="" /></a>
+                                <img class="event_img" src="./images/m_04.jpg" alt="" /></a>
                             </div>
                         </li-->
                     
                         <li class="eventArea">
                             <div class="eventImageWrap">
                                 <a href="" class="event_thumb">
-                                <img class="event_img" src="/m/images/m_05.jpg" alt="" /></a>
+                                <img class="event_img" src="./images/m_05.jpg" alt="" /></a>
                             </div>
                         </li>
 
 						<li class="eventArea">
                             <div class="eventImageWrap">
                                 <a href="" class="event_thumb">
-                                <img class="event_img" src="/m/images/m_06.jpg" alt="" /></a>
+                                <img class="event_img" src="./images/m_06.jpg" alt="" /></a>
                             </div>
                         </li>
 
 						<li class="eventArea">
                             <div class="eventImageWrap">
                                 <a href="" class="event_thumb">
-                                <img class="event_img" src="/m/images/m_07.jpg" alt="" /></a>
+                                <img class="event_img" src="./images/m_07.jpg" alt="" /></a>
                             </div>
                         </li>
 
 						<li class="eventArea">
                             <div class="eventImageWrap">
                                 <a href="" class="event_thumb">
-                                <img class="event_img" src="/m/images/m_08.jpg" alt="" /></a>
+                                <img class="event_img" src="./images/m_08.jpg" alt="" /></a>
                             </div>
                         </li>
 
 						<li class="eventArea">
                             <div class="eventImageWrap">
                                 <a href="" class="event_thumb">
-                                <img class="event_img" src="/m/images/m_09.jpg" alt="" /></a>
+                                <img class="event_img" src="./images/m_09.jpg" alt="" /></a>
                             </div>
                         </li>
 
 						<li class="eventArea">
                             <div class="eventImageWrap">
                                 <a href="" class="event_thumb">
-                                <img class="event_img" src="/m/images/m_10.jpg" alt="" /></a>
+                                <img class="event_img" src="./images/m_10.jpg" alt="" /></a>
                             </div>
                         </li>
                 </ul>
                 <div class="eventPaging"><span class="swiper-pagination-switch"></span><span class="swiper-pagination-switch swiper-visible-switch swiper-active-switch"></span></div>
-                    <a href="javascript://" class="btn_eventPrev"><img src="/m/images/btn_prev_m.png" alt="이전배너보기" style="width:29px;"/></a>
-                    <a href="javascript://" class="btn_eventNext"><img src="/m/images/btn_next_m.png" alt="다음배너보기" style="width:29px;"/></a>
+                    <a href="javascript://" class="btn_eventPrev"><img src="./images/btn_prev_m.png" alt="이전배너보기" style="width:29px;"/></a>
+                    <a href="javascript://" class="btn_eventNext"><img src="./images/btn_next_m.png" alt="다음배너보기" style="width:29px;"/></a>
             </div>
         </section>
 
@@ -176,17 +176,17 @@
 	
 	<div class="main_con">
 		<div id="container_1" style="float:left; width:50%;">
-			<a href="/m/subpage/company.php"><img class="event_img" src="/m/images/menu_1.jpg" alt="" style="width:100%;height:254px;"/></a>
-			<a href="/m/subpage/audition/audition_01.php"><img class="event_img" src="/m/images/menu_2.jpg" alt="" style="width:290px;display:none;"/></a>
+			<a href="./subpage/company.php"><img class="event_img" src="./images/menu_1.jpg" alt="" style="width:100%;height:254px;"/></a>
+			<a href="./subpage/audition/audition_01.php"><img class="event_img" src="./images/menu_2.jpg" alt="" style="width:290px;display:none;"/></a>
 		</div><!-- container_1 종료 -->
 		<div id="container_2" style="float:right; width:50%;">
-			<a href="/m/subpage/star/star.php"><img class="event_img" src="/m/images/menu_3.jpg" alt="" style="width:100%;height:254px;"/></a>
+			<a href="./subpage/star/star.php"><img class="event_img" src="./images/menu_3.jpg" alt="" style="width:100%;height:254px;"/></a>
 		</div><!-- container_2 종료 -->
-    <div id="container_3" style="float:left; width:100%; margin-top: -5px;">
-			<a href="/m/subpage/notice.php"><img class="event_img" src="/m/images/menu_4.jpg" alt="" style="float:left; width:50%;height:200px;"/></a>
-			<a href="/m/subpage/news.php"><img class="event_img" src="/m/images/menu_5.jpg" alt="" style="float:left; width:50%;height:200px"/></a>
-			<a href="/m/subpage/contact.php"><img class="event_img" src="/m/images/menu_6.jpg" alt="" style="display:none;"/></a>
+    <div id="container_3" style="float:left; width:100%; margin-top: -5px;margin-bottom: 30px;">
+			<a href="./subpage/notice.php"><img class="event_img" src="./images/menu_4.jpg" alt="" style="float:left; width:50%;height:200px;"/></a>
+			<a href="./subpage/news.php"><img class="event_img" src="./images/menu_5.jpg" alt="" style="float:left; width:50%;height:200px"/></a>
+			<a href="./subpage/contact.php"><img class="event_img" src="./images/menu_6.jpg" alt="" style="display:none;"/></a>
 		</div><!-- container_3 종료 -->
 	</div><!-- main_con 종료 -->
 
-<?php include($_SERVER["DOCUMENT_ROOT"]."/m/page_foot.php"); ?>
+<?php include($_SERVER["DOCUMENT_ROOT"]."./page_foot.php"); ?>

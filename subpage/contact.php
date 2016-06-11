@@ -1,14 +1,7 @@
-<?php include($_SERVER["DOCUMENT_ROOT"]."/m/page_top.php"); ?>
+<?php include($_SERVER["DOCUMENT_ROOT"]."../page_top.php"); ?>
 
 	<div class="sub_visual_06">
-		<div class="sub_top_tt">
-			Contact Us<br />
-			<div class="sub_top_tt_line"></div>
-			<div class="sub_top_m">
-			(주)플라이업엔터테인먼트<br>
-			오시는 길
-			</div>
-		</div><!-- sub_top_tt 종료 -->
+		
 	</div><!-- sub_visual 종료 -->
 
 	
@@ -19,7 +12,7 @@
 							<!--<img src="/images/map.jpg"  alt="" />
 							<!--iframe src="company/map1.html" style="width:100%;min-height:300px;" frameborder="0" class="iframe_map"></iframe-->
 
-							<div id="map" style="width:100%;height:308px;"></div>
+							<div id="map" style="width:100%;height:550px;"></div>
 
 							<script type="text/javascript" src="//apis.daum.net/maps/maps3.js?apikey=305e4e4b7f9d9ee4bc16d4ae02be0f5d"></script>
 
@@ -49,16 +42,8 @@
 							</script>
 				</div><!-- map_con-->
 
-				<p style="margin-top:35px;">
-				<strong>ADDRESS : </strong>(06045) 서울시 강남구 강남대로 132길 55 광림빌딩 6층<br>
-				55 Gangnam-daero 132-gil, Gangnam-gu, Seoul, Korea<br>
-				<strong>TEL : </strong>+82.2.516.5502  l  
-				<strong>FAX : </strong>+82.2.516.5503  l  
-				<strong>E-MAIL : </strong>flyup_ent@naver.com
-				</p>
-
 
 		</div><!-- sub_contents -->
 	</div><!-- sub_con -->
 
-<?php include($_SERVER["DOCUMENT_ROOT"]."/m/page_foot.php"); ?>
+<?php include($_SERVER["DOCUMENT_ROOT"]."../page_foot.php"); ?>
