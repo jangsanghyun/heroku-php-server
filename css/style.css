@@ -282,6 +282,19 @@ background-color:  rgba(122,195,204,1);
 .star_p td{width:50%; padding-bottom:15px;text-align:center;}
 .star_p img{width:92%;}
 
+.star-link-body {
+    margin:25px;
+    height:auto;
+    overflow:hidden;
+}
+
+.star-link-body div {
+    float:left;
+    width:46%;
+    margin:5px;
+    box-sizing: border-box;
+}
+
 .p_name{font-size:24px; font-weight:bold; color:#2e2e2e; letter-spacing:-3px; line-height:100%;}
 .p_birth{font-size:16px; font-weight:600; color:#929292; letter-spacing:-1px;}
 
