@@ -14,12 +14,13 @@
 				<li><a href="" target="_blank"><img class="event_img" src="/m/images/sns_4.png" alt="" /></a></li>
 			</ul>
 		</div>
-		<div style=" clear:both; width:85%; text-align:center; margin:15px auto; ">
+		<div style=" clear:both; width:85%; text-align:center; margin:15px auto;font-size:10px;">
 			<p style="color: rgb(164,164,164);">(주)플라이업엔터테인먼트 <br>
 			Copyright ⓒ 2015 FLYUP.CO.KR. ALL RIGHTS RESERVED.<br>
 			<br>
 
-			06045 서울특별시 강남구 강남대로 132길 55(논현동) 광림빌딩 6층<br>
+			06045 서울특별시 강남구 <br/>
+			강남대로 132길 55(논현동) 광림빌딩 6층<br>
 			TEL. 02-516-5502 | FAX. 02-516-5503<br>
 			6F GWANGRIM B/D 55, GANGNAM-DAERO 132-GIL<br> GANGNAM_GU, SEOUL, KOREA<br>
 		</div>

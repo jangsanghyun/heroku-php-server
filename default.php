@@ -1,6 +1,43 @@
 <?php include($_SERVER["DOCUMENT_ROOT"]."/m/page_top.php"); ?>
+    <style>
+    .main-link-body {
+        height:auto;
+        overflow:hidden;
+    }
+    .main-link-body div {
+        float:left;
+        width:50%;
+    }
 
-        <section id="event">
+    .eventImageWrap {
+        position:relative;
+    }
+
+    .eventTextWrap {
+        position: absolute;
+        top: 190px;
+        width: 100%;
+    }
+
+    .eventTextWrap .starName {
+        margin-bottom:10px;
+        font-size: 25px;
+        font-weight: bold;
+        color:#fff;
+    }
+
+    .more-info-btn {
+        background-color: #7ac3cc;
+        color: #ffffff !important;
+        border-radius:10px;
+        font-size:14px;
+        padding:5px 20px;
+    }
+
+    </style>
+
+
+        <section id="event" style="margin-top: 70px;">
 
             <div id="eventContainer" style="cursor: -webkit-grab;">
                 <ul id="articleVisual" class="eventWrapper">
@@ -9,6 +46,14 @@
                             <div class="eventImageWrap">
                                 <a href="" class="event_thumb">
                                 <img class="event_img" src="/m/images/m_01.jpg" alt=" " /></a>
+                                <div class="eventTextWrap">
+                                    <div class="starName">
+                                        <span>LEE BO YOUNG</span>
+                                  </div>
+                                  <div>
+                                    <a class="more-info-btn" href="#">MORE INFO</a>
+                                  </div>
+                                </div>
                             </div>
                         </li>
                     
@@ -93,7 +138,7 @@
                 var event = new Swiper('#eventContainer', {
                     pagination : '.eventPaging',
                     paginationClickable : true,
-                    autoplay : 3000,
+                    //autoplay : 3000,
                     speed : 1000,
                     grabCursor : true,
                     mode : 'horizontal',
@@ -172,7 +217,7 @@
             });
         </script>
 
-
+<!--
     <div class="container-fluid">
         <div class="row">
         <div class="col-sm-9">
@@ -203,18 +248,29 @@
         </div>
         </div>
     </div>
+-->
 
-    <!--
+    
+    <div class="main-link-body" style="margin:25px;">
+        <div><a href="/m/company"><img src="./images/menu_1.jpg" width="100%"></a></div>
+        <div><a href="/m/star"><img src="./images/menu_3.jpg" width="100%"></a></div>
+        <div><a href="/m/notice"><img src="./images/menu_4.jpg" width="100%"></a></div>
+        <div><a href="/m/news"><img src="./images/menu_5.jpg" width="100%"></a></div>
+        <div style="clear:both;"></div>
+    </div>
+
+
+   <!-- 
 	<div class="main_con">
 		<div id="container_1" style="float:left; width:50%;">
 			<a href="/m/subpage/company.php"><div class="event_img_main1"/></div></a>
             <a href="/m/subpage/star/star.php"><div class="event_img_main2"/></div></a>
-		</div> container_1 종료
+		</div>
     <div id="container_3" style="float:left; width:100%; margin-top: -5px;margin-bottom: 30px;">
 			<a href="/m/subpage/notice.php"><img class="event_img" src="/m/images/menu_4.jpg" alt="" style="float:left; width:50%;height:200px;"/></a>
 			<a href="/m/subpage/news.php"><img class="event_img" src="/m/images/menu_5.jpg" alt="" style="float:left; width:50%;height:200px"/></a>
 			<a href="/m/subpage/contact.php"><img class="event_img" src="/m/images/menu_6.jpg" alt="" style="display:none;"/></a>
-		</div><!-- container_3 종료 -->
-	</div><!-- main_con 종료 -->
-
+		</div>
+	</div>
+ -->
 <?php include($_SERVER["DOCUMENT_ROOT"]."/m/page_foot.php"); ?>

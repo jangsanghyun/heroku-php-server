@@ -4,6 +4,7 @@
 <title>플라이업엔터테인먼트</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="user-scalable=yes, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+<meta name="theme-color" content="#7AC3CC" />
 <meta http-equiv="Cache-Control" content="no-cache">
 <meta http-equiv="Pragma" content="no-cache">
 <link rel="stylesheet" type="text/css" media="all" href="/m/css/bootstrap.min.css" />
@@ -36,9 +37,11 @@
 <header id="header">
 	
 	<section class="gnb">
-		<div class="shadow hide"></div>
-		<div style="position:absolute;right:25px;top:25px;">
-				<a href="#lnb" class="lnb_open"><img src="/m/images/full_menu_btn.png" alt="전체메뉴" style="height:30px;width:30px;"></a>
+		<div class="shadow"></div>
+		<div style="position:absolute;right:15px;top:13px;">
+				<a href="#lnb" class="lnb_open">
+					<img src="/m/images/full_menu_btn.png" alt="전체메뉴" style="height:20px;width:20px;">
+				</a>
 			</div>
 		<div class="mainLogo" style="padding-left:20px;display:none;">
 		</div>
@@ -273,7 +276,7 @@
 	<div class="lnb_inner">
 		<div class="contentpop">
 			<div class="pop-wrap">
-	<div class="headpop" style="background-color: rgba(122,195,204,1);width:100%;height:50px;">
+	<div class="headpop" style="background-color: rgba(122,195,204,1);width:100%;height:90px;">
 		<div class="iconbtn" style="font-size:17px;color:#fff;padding:5px 0 0 5px;font-weight:bold;text-align:left;">
 			<a href="/m"><img src="/m/images/m_logo.png" alt="로고" ></a>
 		 <span style="float:left;padding-left:5px;line-height:250%;"></span>
@@ -521,11 +524,15 @@
 			t.stop().animate({"right":"-84.12698412698413%"},150,function(){
 				$(this).css("display","none");
 			});	
+
 			$(".popup_background").remove();
 			$(".sub_inner").hide();
 			$(".quick_inner").hide();
-			$(".gnb .shadow").addClass("hide");
-			 
+			//$(".gnb .shadow").addClass("hide");
+			
+			$(".gnb .shadow").stop().animate({"right":"-84.12698412698413%"},150,function(){
+				$(this).css("display","none");
+			});	
 
 		}else{
 			$(".popup_background").remove();
@@ -534,7 +541,10 @@
 			 $("body").append(backgound);
 			 $(".sub_inner").hide();
 			 $(".quick_inner").hide();
-			 $(".gnb .shadow").removeClass("hide");
+			 //$(".gnb .shadow").removeClass("hide");
+
+			 $(".gnb .shadow").css("display","block").stop().animate({"right":"0"},150);
+
 			console.log("expend");
 		}
 		

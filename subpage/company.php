@@ -1,5 +1,7 @@
 <?php include($_SERVER["DOCUMENT_ROOT"]."/m/page_top.php"); ?>
 
-	<div class="sub_visual_01">
-	</div><!-- sub_visual 종료 -->
+	<div style="margin:25px;">
+        <img src="../images/about.png" width="100%">
+	</div>
+    
 <?php include($_SERVER["DOCUMENT_ROOT"]."/m/page_foot.php"); ?>
