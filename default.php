@@ -50,7 +50,7 @@
                             <span>LEE BO YOUNG</span>
                       </div>
                       <div>
-                        <a class="more-info-btn" href="#">M O R E&nbsp;&nbsp;I N F O</a>
+                        <a class="more-info-btn" href="/m/subpage/star/star_detail.php?id=02">M O R E&nbsp;&nbsp;I N F O</a>
                       </div>
                     </div>
                 </div>
@@ -65,7 +65,7 @@
                             <span>WANG BIT NA</span>
                       </div>
                       <div>
-                        <a class="more-info-btn" href="#">M O R E&nbsp;&nbsp;I N F O</a>
+                        <a class="more-info-btn" href="/m/subpage/star/star_detail.php?id=03">M O R E&nbsp;&nbsp;I N F O</a>
                       </div>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                             <span>YOO IN YOUNG</span>
                       </div>
                       <div>
-                        <a class="more-info-btn" href="#">M O R E&nbsp;&nbsp;I N F O</a>
+                        <a class="more-info-btn" href="/m/subpage/star/star_detail.php?id=04">M O R E&nbsp;&nbsp;I N F O</a>
                       </div>
                     </div>
                 </div>
@@ -102,7 +102,7 @@
                             <span>KIM SUNG OH</span>
                       </div>
                       <div>
-                        <a class="more-info-btn" href="#">M O R E&nbsp;&nbsp;I N F O</a>
+                        <a class="more-info-btn" href="/m/subpage/star/star_detail.php?id=07">M O R E&nbsp;&nbsp;I N F O</a>
                       </div>
                     </div>
                 </div>
@@ -117,7 +117,7 @@
                             <span>RYU SU YOUNG</span>
                       </div>
                       <div>
-                        <a class="more-info-btn" href="#">M O R E&nbsp;&nbsp;I N F O</a>
+                        <a class="more-info-btn" href="/m/subpage/star/star_detail.php?id=08">M O R E&nbsp;&nbsp;I N F O</a>
                       </div>
                     </div>
                 </div>
@@ -132,7 +132,7 @@
                             <span>CHOI JUNG WON</span>
                       </div>
                       <div>
-                        <a class="more-info-btn" href="#">M O R E&nbsp;&nbsp;I N F O</a>
+                        <a class="more-info-btn" href="/m/subpage/star/star_detail.php?id=10">M O R E&nbsp;&nbsp;I N F O</a>
                       </div>
                     </div>
                 </div>
@@ -147,7 +147,7 @@
                             <span>KIM JI HOON</span>
                       </div>
                       <div>
-                        <a class="more-info-btn" href="#">M O R E&nbsp;&nbsp;I N F O</a>
+                        <a class="more-info-btn" href="/m/subpage/star/star_detail.php?id=09">M O R E&nbsp;&nbsp;I N F O</a>
                       </div>
                     </div>
                 </div>
@@ -162,7 +162,7 @@
                             <span>HONG SEUNG HUI</span>
                       </div>
                       <div>
-                        <a class="more-info-btn" href="#">M O R E&nbsp;&nbsp;I N F O</a>
+                        <a class="more-info-btn" href="/m/subpage/star/star_detail.php?id=12">M O R E&nbsp;&nbsp;I N F O</a>
                       </div>
                     </div>
                 </div>
@@ -177,7 +177,7 @@
                             <span>JANG EUI SOO</span>
                       </div>
                       <div>
-                        <a class="more-info-btn" href="#">M O R E&nbsp;&nbsp;I N F O</a>
+                        <a class="more-info-btn" href="/m/subpage/star/star_detail.php?id=13">M O R E&nbsp;&nbsp;I N F O</a>
                       </div>
                     </div>
                 </div>
