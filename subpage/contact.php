@@ -2,7 +2,9 @@
 
 	<div style="margin:25px;">
 		<img src="../images/contact_top.png" width="100%"/>
-		<div id="map" style="width:100%;height:300px;margin:20px 0;"></div>
+	</div>
+	<div id="map" style="width:100%;height:300px;"></div>
+	<div style="margin:25px;">
 		<img src="../images/contact_bottom.png" width="100%"/>
 	</div>
 
