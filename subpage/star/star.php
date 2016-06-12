@@ -1,7 +1,7 @@
 <?php include($_SERVER["DOCUMENT_ROOT"]."/m/page_top.php"); ?>
 	
 	<div style="margin:25px;">
-		<img src="../../images/contact_top.png" width="100%"/>
+		<img src="../../images/star_top.png" width="100%"/>
 	</div>
 	<div class="star-link-body">
 	    <div><a href="/m/subpage/star/star_detail.php?id=02"><img src="/m/images/03_1star__02.png" width="100%"></a></div>

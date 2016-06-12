@@ -2,7 +2,7 @@
 	
 	
 	<div style="margin:25px;">
-		<img src="../../images/contact_top.png" width="100%"/>
+		<img src="../../images/star_top.png" width="100%"/>
 		<hr/>
 	</div>
 
