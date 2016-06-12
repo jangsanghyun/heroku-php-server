@@ -1,14 +1,6 @@
 <?php include($_SERVER["DOCUMENT_ROOT"]."/m/page_top.php"); ?>
 
-	<div class="sub_visual_05">
-		<div class="sub_top_tt">
-			Audition<br />
-			<div class="sub_top_tt_line"></div>
-			<div class="sub_top_m">
-			(주)플라이업엔터테인먼트<br>
-			오디션/채용안내
-			</div>
-		</div><!-- sub_top_tt 종료 -->
+	<div class="sub_audi_02">
 	</div><!-- sub_visual 종료 -->
 
 	
@@ -17,10 +9,10 @@
 
 		<div class="audi_tap">
 			<div class="a_tap" style="background:#b9b9b9;">
-				<a href="/m/subpage/audition/audition_01.asp">Audition</a>
+				<a href="/m/subpage/audition/audition_01.php">Audition</a>
 			</div>
 			<div class="r_tap" style="background:#007bc7;">
-				<a href="/m/subpage/audition/audition_02.asp">Recruitment</a>
+				<a href="/m/subpage/audition/audition_02.php">Recruitment</a>
 			</div>
 		 </div>
 
