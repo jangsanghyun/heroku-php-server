@@ -2,7 +2,7 @@
 
 
 	<div style=" margin: 0px 25px 25px 25px;">
-	  <img src="../../images/audition/audi_title.png" width="100%"/>
+	  <img  style="margin-top:25px" src="../../images/audition/audi_title.png" width="100%"/>
 					<div class="audi_tap">
 							<div class="a_tap" style="background: rgba(129,129,129,1);">
 								<a href="/m/subpage/audition/audition_01.php">지 원 방 법</a>
