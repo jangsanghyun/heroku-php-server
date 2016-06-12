@@ -247,7 +247,7 @@ background-color:  rgba(122,195,204,1);
 .sub_audi_01_contents{
   
 }
-.sub_audi_01{width:100%;float:left;    height: 1530px;;background: url('../images/AUDITION_01.png') no-repeat center;}
+.sub_audi_01{width:100%;float:left;height: 1530px;;background-image: url('../images/AUDITION_01.png');}
 .sub_audi_02{width:100%;float:left;height:143px;background: url('../images/sub_visual_05.jpg') no-repeat center;}
 .sub_visual_06{width:100%;float:left;height:1110px;background: url('../images/contact.png') no-repeat center; background-size: 100%;
   }
@@ -300,14 +300,26 @@ background-color:  rgba(122,195,204,1);
 
 
 /*=== Audition ===*/
-.audi_tap{    position: absolute;
+.audi_tap{  
+    position: relative;
     display: inline-block;
     width: 100%;
     float: left;
     text-align: center;
-    top: 425px;
-    padding-left: 40px;
-    padding-right: 40px;}
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.audi_tap_recu{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+   
+}
 .a_tap{    width: 50%;
     height: 46px;
     float: left;
@@ -321,23 +333,53 @@ background-color:  rgba(122,195,204,1);
     height: 46px;
     float: right;
     color: grey;
-    border: solid 2px;
+    border: solid 2px rgb(129,129,129)
 }
 .r_tap a{color:grey; font-weight:bold; font-size:18px; position:relative; top:12px;}
+
+.r_tap_detail{ 
+    width: 50%;
+    height: 46px;
+    float: right;
+    color: grey;
+
+}
+.r_tap_detail a{    color: #fff;
+font-weight: bold;
+font-size: 18px;
+position: relative;
+top: 12px;}
+
+.a_tap_detail{    width: 50%;
+height: 46px;
+float: left;
+border: solid 2px rgba(129,129,129,1);
+}
+.a_tap_detail a{color:grey; font-weight:bold; font-size:18px; position:relative; top:12px;}
+
+
+
+
 
 .audi_tt{font-size:14px; color:#5c5c5c; font-weight:bold; letter-spacing:-1px;}
 .audi_title{font-size:13px; color:#016eb2; font-weight:bold; margin-bottom:10px; }
 .audi_table{width:100%; margin:15px 0; }
 .audi_table table{border:1px solid #dddddd;border-collapse:collapse;}
 .audi_table td{border:1px solid #dddddd; padding:15px;}
-.down_btn{    position: relative;
+.down_btn{    
+    position: relative;
     display: inline-block;
-    width: 560px;
+    width: 100%;
     height: 46px;
-    background: rgb(122,195,204);
+    background-color: rgb(122,195,204);
     text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 46px;
+    margin-top: 15px;
 };
-.down_btn a{color:#ffffff; font-weight:bold; font-size:12px; position:relative; top:12px;}
+
 .sub_in_line{width:100%;border-top:1px solid #dddddd;margin:35px auto;}
 
 
