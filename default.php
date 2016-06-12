@@ -192,6 +192,13 @@
     </div>
 </section>
 
+<div class="main-link-body" style="margin:25px;">
+    <div><a href="/m/company"><img src="./images/menu_1.jpg" width="100%"></a></div>
+    <div><a href="/m/star"><img src="./images/menu_3.jpg" width="100%"></a></div>
+    <div><a href="/m/notice"><img src="./images/menu_4.jpg" width="100%"></a></div>
+    <div><a href="/m/news"><img src="./images/menu_5.jpg" width="100%"></a></div>
+    <div style="clear:both;"></div>
+</div>
 
 <script>
     $(function() {
@@ -283,13 +290,7 @@
     });
 </script>
 
-<div class="main-link-body" style="margin:25px;">
-    <div><a href="/m/company"><img src="./images/menu_1.jpg" width="100%"></a></div>
-    <div><a href="/m/star"><img src="./images/menu_3.jpg" width="100%"></a></div>
-    <div><a href="/m/notice"><img src="./images/menu_4.jpg" width="100%"></a></div>
-    <div><a href="/m/news"><img src="./images/menu_5.jpg" width="100%"></a></div>
-    <div style="clear:both;"></div>
-</div>
+
 
 
 <?php include($_SERVER["DOCUMENT_ROOT"]."/m/page_foot.php"); ?>
