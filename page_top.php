@@ -451,7 +451,7 @@
 								</div></a>		
 						</div>
 						<div class="pop_smenu" style="clear:both;">
-							<a href="/m/subpage/star/star.php">
+							<a href="/m/subpage/recruit/recruit_01.php">
 							<div style="font-weight:bold;width:95%;height:33px;font-size:14px;color:white;padding: 0px 15px;-webkit-box-align: center;
     display: -webkit-box;
 							">
