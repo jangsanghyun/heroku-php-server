@@ -13,7 +13,7 @@
 						</div>
 		<img src="../../images/audition/audiA.png" width="100%"/>
 		 <div class="down_btn">오디션 지원서 다운로드
-					<a href="/m/subpage/audition/flyup_audition.docx" target="_blank">
+					<a href="http://www.flyup.co.kr/wp-content/uploads/2016/04/flyup_audition.docx" target="_blank">
 					<img src="/m/images/down.png" style="width: 35px;
     position: relative;
     margin-left: 10px;"></a>
