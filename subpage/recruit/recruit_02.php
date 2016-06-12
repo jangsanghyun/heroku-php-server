@@ -1,7 +1,7 @@
 <?php include($_SERVER["DOCUMENT_ROOT"]."/m/page_top.php"); ?>
 
 	<div style=" margin: 0px 25px 25px 25px;">
-    <img src="../../images/recruit/recu01A.png" width="100%"/>
+    <img style="margin-top:25px" src="../../images/recruit/recu01A.png" width="100%"/>
 					<div class="audi_tap_recu">
 							<div class="a_tap_detail" style="background:white;">
 								<a href="/m/subpage/recruit/recruit_01.php">지 원 방 법</a>
